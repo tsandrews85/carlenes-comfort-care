@@ -1,0 +1,60 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+/* Applying the Dancing Script font to headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Header Styles */
+header {
+    background-color: #0000FF; /* Blue */
+    padding: 20px 0;
+    text-align: center; /* Center the content in the header */
+}
+
+header .logo h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 10px; /* Add some space between the title and the navigation */
+}
+
+nav ul {
+    display: inline-block; /* Makes the navigation inline but centered */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; /* Spacing between the links */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.cta {
+    display: block;
+    margin-top: 15px;
+    background-color: #FFD700; /* A contrasting color for the call-to-action button */
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta:hover
